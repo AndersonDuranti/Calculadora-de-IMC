@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111;
+  }
+  
+  #container {
+    text-align: center;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    color: #eee;
+    border: 2px solid rgb(100, 150, 200); /* Adicionando a borda colorida */
+  }
+  
+  input[type="number"],
+  button {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    background-color: #333;
+    color: #eee;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    transition: background-color 0.15s ease; /* Reduzindo o tempo da transição */
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
